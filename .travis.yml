@@ -17,3 +17,6 @@ install:
 
 # command to run tests, e.g. python setup.py test
 script: PYTHONPATH=extplugins nosetests --where=tests
+matrix:
+ exclude:
+   - 2.7
