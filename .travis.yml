@@ -19,4 +19,4 @@ install:
 script: PYTHONPATH=extplugins nosetests --where=tests
 matrix:
  exclude:
-   - 2.7
+   - python: 2.7
